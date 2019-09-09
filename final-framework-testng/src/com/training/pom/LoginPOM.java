@@ -19,7 +19,7 @@ public class LoginPOM {
 	@FindBy(id="password")
 	private WebElement password;
 	
-	@FindBy(id="formLogin_submitAuth")
+	@FindBy(id="Login Auth")
 	private WebElement loginBtn; 
 	
 	public void sendUserName(String userName) {
