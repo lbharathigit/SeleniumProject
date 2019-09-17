@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.training.sanity.tests.ForgotpassTestTC03">
+      <class name="com.training.sanity.tests.AdminRewardTC35Test">
         <methods>
-          <include name="validForgotpassTestTC03"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="validAddingProductTest3"/>
           <include name="setUpBeforeClass"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.training.sanity.tests.ForgotpassTestTC03 -->
+      </class> <!-- com.training.sanity.tests.AdminRewardTC35Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

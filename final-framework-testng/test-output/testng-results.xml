@@ -1,29 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="45823" started-at="2019-09-06T10:38:57Z" finished-at="2019-09-06T10:39:43Z">
+  <suite name="Default suite" duration-ms="21520" started-at="2019-09-17T09:57:45Z" finished-at="2019-09-17T09:58:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="45823" started-at="2019-09-06T10:38:57Z" finished-at="2019-09-06T10:39:43Z">
-      <class name="com.training.sanity.tests.ForgotpassTestTC03">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.ForgotpassTestTC03@457e2f02]" name="setUpBeforeClass" is-config="true" duration-ms="26" started-at="2019-09-06T16:08:57Z" finished-at="2019-09-06T16:08:57Z">
+    <test name="Default test" duration-ms="21520" started-at="2019-09-17T09:57:45Z" finished-at="2019-09-17T09:58:07Z">
+      <class name="com.training.sanity.tests.AdminRewardTC35Test">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.AdminRewardTC35Test@523884b2]" name="setUpBeforeClass" is-config="true" duration-ms="8790" started-at="2019-09-17T15:27:45Z" finished-at="2019-09-17T15:27:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.ForgotpassTestTC03@457e2f02]" name="setUp" is-config="true" duration-ms="22334" started-at="2019-09-06T16:08:57Z" finished-at="2019-09-06T16:09:19Z">
+        <test-method status="PASS" signature="validAdminLoginTest()[pri:0, instance:com.training.sanity.tests.AdminRewardTC35Test@523884b2]" name="validAdminLoginTest" duration-ms="1661" started-at="2019-09-17T15:27:54Z" finished-at="2019-09-17T15:27:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validForgotpassTestTC03()[pri:0, instance:com.training.sanity.tests.ForgotpassTestTC03@457e2f02]" name="validForgotpassTestTC03" duration-ms="19361" started-at="2019-09-06T16:09:19Z" finished-at="2019-09-06T16:09:39Z">
+        </test-method> <!-- validAdminLoginTest -->
+        <test-method status="PASS" signature="validAddingProductTest1()[pri:1, instance:com.training.sanity.tests.AdminRewardTC35Test@523884b2]" name="validAddingProductTest1" duration-ms="3138" started-at="2019-09-17T15:27:56Z" finished-at="2019-09-17T15:27:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validForgotpassTestTC03 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.ForgotpassTestTC03@457e2f02]" name="tearDown" is-config="true" duration-ms="4023" started-at="2019-09-06T16:09:39Z" finished-at="2019-09-06T16:09:43Z">
+        </test-method> <!-- validAddingProductTest1 -->
+        <test-method status="PASS" signature="validAddingProductTest2()[pri:2, instance:com.training.sanity.tests.AdminRewardTC35Test@523884b2]" name="validAddingProductTest2" duration-ms="782" started-at="2019-09-17T15:27:59Z" finished-at="2019-09-17T15:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validAddingProductTest2 -->
+        <test-method status="PASS" signature="validAddingProductTest3()[pri:3, instance:com.training.sanity.tests.AdminRewardTC35Test@523884b2]" name="validAddingProductTest3" duration-ms="122" started-at="2019-09-17T15:28:00Z" finished-at="2019-09-17T15:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validAddingProductTest3 -->
+        <test-method status="PASS" signature="validAddingProductTest4()[pri:4, instance:com.training.sanity.tests.AdminRewardTC35Test@523884b2]" name="validAddingProductTest4" duration-ms="889" started-at="2019-09-17T15:28:00Z" finished-at="2019-09-17T15:28:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validAddingProductTest4 -->
+        <test-method status="PASS" signature="validAddingProductTest5()[pri:5, instance:com.training.sanity.tests.AdminRewardTC35Test@523884b2]" name="validAddingProductTest5" duration-ms="2211" started-at="2019-09-17T15:28:01Z" finished-at="2019-09-17T15:28:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validAddingProductTest5 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.AdminRewardTC35Test@523884b2]" name="tearDown" is-config="true" duration-ms="3880" started-at="2019-09-17T15:28:03Z" finished-at="2019-09-17T15:28:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.ForgotpassTestTC03 -->
+      </class> <!-- com.training.sanity.tests.AdminRewardTC35Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
