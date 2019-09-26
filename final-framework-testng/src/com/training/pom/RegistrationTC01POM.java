@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class RegistrationTC01POM {
+	@SuppressWarnings("unused")
 	private WebDriver driver; 
 	
 	public RegistrationTC01POM(WebDriver driver) {

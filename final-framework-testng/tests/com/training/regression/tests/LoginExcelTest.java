@@ -19,11 +19,13 @@ import com.training.pom.LoginPOM;
 import com.training.utility.DriverFactory;
 import com.training.utility.DriverNames;
 
+@SuppressWarnings("unused")
 public class LoginExcelTest {
 	private WebDriver driver;
-	private String baseUrl;
+	private String baseUrl1;
 	private LoginPOM loginPOM;
 	private static Properties properties;
+	@SuppressWarnings("unused")
 	private ScreenShot screenShot;
 
 	@BeforeClass
@@ -37,10 +39,10 @@ public class LoginExcelTest {
 	public void setUp() throws Exception {
 		driver = DriverFactory.getDriver(DriverNames.CHROME);
 		loginPOM = new LoginPOM(driver);
-		baseUrl = properties.getProperty("baseURL");
+		baseUrl1 = properties.getProperty("baseURL1");
 		screenShot = new ScreenShot(driver);
 		// open the browser
-		driver.get(baseUrl);
+		driver.get(baseUrl1);
 	}
 
 	@AfterMethod
@@ -49,11 +51,12 @@ public class LoginExcelTest {
 	}
 
 	@Test(dataProvider = "excel-inputs", dataProviderClass = LoginDataProviders.class)
-	public void loginDBTest(String userName, String password) {
+	public void loginDBTest(String userName, String password) throws InterruptedException {
 		loginPOM.sendUserName(userName);
 		loginPOM.sendPassword(password);
-		loginPOM.clickLoginBtn();
-		screenShot.captureScreenShot(userName);
+		Thread.sleep(3000);
+		//loginPOM.clickLoginBtn();
+		//screenShot.captureScreenShot(userName);
 
 	}
 
